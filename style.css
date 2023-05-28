@@ -1,0 +1,37 @@
+*{
+    background-color: #ffd95a;
+}
+
+.body .logo{
+position: absolute;
+width: 367px;
+height: 159px;
+left: calc(50% - 367px/2 - 0.5px);
+top: calc(30% - 159px/2 - 0.5px);
+
+background: url(gambar/logo.png);
+
+}
+
+.body .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #C07F00;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px gray;
+  }
+  
+  .body .btn:hover {background-color: #C07F00}
+  
+  .body .btn:active {
+    background-color: #C07F00;
+    box-shadow: 0 5px gray;
+    transform: translateY(4px);
+  }
