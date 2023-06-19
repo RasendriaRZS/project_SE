@@ -38,19 +38,21 @@ align-items: center;
 }
 
 .logins .container{
-    margin-left: -20%;
+    display: flex;
+    justify-content: center;
 }
 
-.logins .judul h2{
-    margin-top: -40%;
+.logins .container .judul h2{
+    margin-top: -30%;
     margin-bottom: 5%;
-    margin-right: -16%;
+    margin-left: 140%;
+    margin-right: -200%;  
     color: #C07F00;
 }
 
 .container form{
-    margin-top: -30%;
-    margin-left: 40%;
+    margin-top: 10%;
+    margin-left: -100%;
 }
 
 .container .form label{
@@ -104,17 +106,17 @@ align-items: center;
 }
 
 
-.container2 .form2{
-    margin-top: 13%;
-    margin-right: 18%;
-    margin-left: -30%;
+.form2{
+    margin-top: -70%;
+    margin-left: 180%;
+    margin-right: -100%;
 }
 
-.container2 .form2 label{
+.form2 label{
     color: #c07f00;
 }
 
-.container2 .form2 input{
+.form2 input{
     width: 100%;
     height: 50px;
     border-style: double;
@@ -126,7 +128,7 @@ align-items: center;
 
 }
 
-.container2 .form2 input .i1{
+.form2 input .i1{
     margin-left: -10%;
 }
 
@@ -149,17 +151,17 @@ a:link {
     text-decoration:none;
 }
 
-.container2 .bungkus{
-    margin-top: 20%;
-    margin-left: -80%;
+.container2{
+    margin-top: 10%;
+    margin-left: 100%;
+    margin-right: -100%;
 }
 
 .container2 .bungkus label{
     color: darkblue;
 }
 
-.container2 .bungkus .text{
-    margin-top: 20%;
-    margin-left: -100%;
+.container2 .bungkus p{
+    margin-left: 3%;
 }
 
