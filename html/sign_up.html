@@ -15,45 +15,46 @@
          </div>
     
         <div class="logins">         
-            <div class="container col-8">
-                <div class="judul d-flex justify-content-end">
+            <div class="container">
+                <div class="judul">
                     <h2>Sign Up</h2>
                 </div>
-                <form action="sign_up.php">
-                    <div class="form">
-                        <label for="username">Username:</label><br>
-                        <input type="text" id="username" name="username" value="" placeholder="Enter your username"><br>
-                        <label for="fname">Full Name:</label><br>
-                        <input type="text" id="fname" name="fname" value="" placeholder="Enter your name"><br>
-                        <label for="BOD">Birth of Date:</label><br>
-                        <input type="date" id="BOD" name="BOD" value=""><br>
-                    </div>
-                </form>
-            </div>
-            
-
-            <div class="container2 col-4">
-                <form action="sign_up.php">
-                    <div class="form2">
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email" value="" placeholder="Enter your email"><br>
-                        <label for="pw">Password:</label><br>
-                        <input type="password" id="pw" name="pw" value="" placeholder="Enter your password">
-                        <label for="Cpw">Confirm Password:</label><br>
-                        <input type="password" id="Cpw" name="Cpw" value="" placeholder="Confirm your password">
-                    </div>
-                </form>
-                <div class="bungkus">
-                    <div class="cek">
-                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                        <label for="vehicle1"> <b>Agree</b> with Term and Conditions</label>
+                <div class="row">
+                    <form method="POST" action="sign_up_connect.php" id="registration">
+                        <div class="form">
+                            <label for="username">Username:</label><br>
+                            <input type="text" id="username" name="username" value="" placeholder="Enter your username"><br>
+                            <label for="fname">Full Name:</label><br>
+                            <input type="text" id="fname" name="fname" value="" placeholder="Enter your name"><br>
+                            <label for="BOD">Birth of Date:</label><br>
+                            <input type="date" id="BOD" name="BOD" value=""><br>
+                        </div>
                         
-                    </div>
-                        <br><br><a href="home.html"><button class="tombol">Sign Up</button></a>
-                        <p><br>Already have an account?<a href="login.html">  Log in</a></p>
-                    </div>
+                        <div class="form2 col-12">
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" value="" placeholder="Enter your email"><br>
+                            <label for="password">Password:</label><br>
+                            <input type="password" id="pw" name="password" value="" placeholder="Enter your password">
+                            <label for="Cpw">Confirm Password:</label><br>
+                            <input type="password" id="Cpw" name="Cpw" value="" placeholder="Confirm your password">                            </div>
+                        <div class="container2">
+                            <div class="bungkus">
+                                <div class="cek">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1"> <b>Agree</b> with Term and Conditions</label>
+                                </div>
+                                <br><a href="home.html"><button class="tombol">Sign Up</button></a>                                    
+                                <p><br>Already have an account?<a href="login.html">  Log in</a></p>
+                            
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
+        </div>
+            
+
+            
         </div>
     
 
