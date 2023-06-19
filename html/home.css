@@ -269,3 +269,7 @@ text-align: right;
 
 color: #2F2F2F;
 }
+
+a:link {
+    text-decoration:none;
+}
